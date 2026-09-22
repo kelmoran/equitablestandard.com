@@ -44,43 +44,44 @@
             </div>
         </section>
 
-        <!-- CHARTER / PROBLEMS -->
+        <!-- THE PROMISE / ENFORCEMENT / LOOPOLES -->
         <section class="section" id="charter">
             <div class="container">
-                <h2 class="section-title">The Charter</h2>
-                <p class="section-lead">Each provision is a direct answer to a specific failure in how corporations are structured today.</p>
+                <h2 class="section-title">What the Equitable Standard is</h2>
+                <p class="section-lead">A company that keeps its promises. Three short sections: what it promises, how that promise is enforced, and how the gaps are closed.</p>
 
-                <div class="cards">
-                    <div class="card reveal">
-                        <h3>Your data stays yours</h3>
-                        <p class="problem">Today, every piece of data a user generates becomes a corporate asset &mdash; sold, licensed, and traded behind terms of service no one reads. Your data is the product.</p>
-                        <p class="solution"><strong>The fix:</strong> User data is never sold, mined, licensed, or read. What you produce is yours, full stop.</p>
-                    </div>
+                <!-- 1. THE PROMISE -->
+                <div class="subblock">
+                    <h3 class="subhead">What is the promise</h3>
+                    <ul class="promise-list">
+                        <li><strong>Your data stays yours.</strong> We don't sell, mine, or use your data or your work to train anything. It's only ever used to give you the service you asked for.</li>
+                        <li><strong>We can't be bought up.</strong> The company can't be sold to a private equity firm, a venture capital fund, or a buyer who would take control of the board. Whoever runs it has to follow the same rules.</li>
+                        <li><strong>We can't change the rules to weaken you.</strong> The data, privacy, and audit rules can only get stronger, never weaker. Making them weaker is treated the same as selling the company to a buyer &mdash; it needs the same supermajority vote.</li>
+                        <li><strong>You can check us.</strong> Your IT security team can audit the deployed code, and our finances and cap table are public. Trust comes from checking, not from us saying so.</li>
+                        <li><strong>If we ever break this:</strong> if we were sold to one of those buyers, or if we tried to weaken your data or auditability terms, you could <em>end your account and get your data back</em>. And what you've signed still holds &mdash; its validity doesn't depend on who we are.</li>
+                    </ul>
+                </div>
 
-                    <div class="card reveal">
-                        <h3>It can&rsquo;t be quietly bought away</h3>
-                        <p class="problem">Companies are sold to private equity or large acquirers, and the terms that protected users are quietly rewritten. The people who built and use the product lose out either way.</p>
-                        <p class="solution"><strong>The fix:</strong> A charter-level bar on sale or change of control to a private equity firm, a venture capital fund, or any acquirer that would control the board &mdash; requiring a supermajority and a right of first refusal. A capture is <em>priced and public</em>, not possible to do quietly.</p>
-                    </div>
+                <!-- 2. ENFORCEMENT -->
+                <div class="subblock">
+                    <h3 class="subhead">What are the enforcement mechanisms</h3>
+                    <ul class="promise-list">
+                        <li><strong>The charter.</strong> The company's own governing document requires a <strong>supermajority</strong> (not a normal majority) for a sale or change of control, a sale of the core IP, or a sale of the brand &mdash; and gives users and the public a <strong>right of first refusal</strong>, so they can always buy it before anyone else.</li>
+                        <li><strong>Your right to exit.</strong> If any of the protected events happens, the service agreement with <em>every user</em> is breached. Each user can then <strong>cancel, get their data back, and keep their signed work valid</strong>. We don't claim a sale is impossible &mdash; we make it <em>costly and public</em>, because a buyer who would face claims from every user at once is a buyer who won't show up.</li>
+                        <li><strong>The signed record.</strong> (For signing products like WorkSigned.) Every record is a chain of hashes signed against a public chain &mdash; or, in the institution-hosted model, against <em>your own key</em>. A sale or even the company going out of business <strong>cannot change, reprice, or reuse</strong> anything already signed. That part is math, not law.</li>
+                    </ul>
+                </div>
 
-                    <div class="card reveal">
-                        <h3>The rules can't be walked back</h3>
-                        <p class="problem">A company's privacy and data promises are only as good as its next board meeting. Terms get revised, policies get walked back, and the protections you relied on quietly disappear.</p>
-                        <p class="solution"><strong>The fix:</strong> Two layers. A <strong>charter-level bar</strong> &mdash; supermajority + ROFR on any sale of control, the core IP, or the brand to a for-profit acquirer, and on any material weakening of the terms. And a <strong>per-signee remedy</strong> that a capture or an adverse change breaches. No big upfront legal build-out; the commitment is sealed from day one. <a href="/enforcement">See How it&rsquo;s enforced.</a></p>
-                    </div>
-
-                    <div class="card reveal">
-                        <h3>Auditable by you</h3>
-                        <p class="problem">Corporate decisions are made behind closed doors. Reports are audited once a year by people who report to management. Users can't verify a single claim.</p>
-                        <p class="solution"><strong>The fix:</strong> A user-auditable platform: every line of deployed code is auditable by your IT security team, and governance, financials, and data practices are open to audit. You can check the commitments yourself &mdash; trust through verification, not marketing.</p>
-                    </div>
-
-                    <div class="card reveal">
-                        <h3>Enforced in two layers</h3>
-                        <p class="problem">Most promises in a tech company&rsquo;s terms are unenforceable &mdash; no numbers, no remedy, no accountability. When something breaks, there is nothing to point to.</p>
-                        <p class="solution"><strong>The fix:</strong> (1) A charter-level bar: supermajority + ROFR on a capture, an IP/brand sale, or any material weakening of the terms. (2) A per-signee remedy that a capture or an adverse change breaches &mdash; terminating the service and returning the data. We don&rsquo;t claim a sale is impossible; we make it costly, public, and answerable. (Where the certified product is a signing record &mdash; e.g. WorkSigned &mdash; a third, cryptographic layer applies: the record verifies independently of the issuer.)</p>
-                    </div>
-
+                <!-- 3. LOOPOLES -->
+                <div class="subblock">
+                    <h3 class="subhead">How are loopholes sealed</h3>
+                    <ul class="promise-list">
+                        <li><strong>"Just change the charter" &mdash; sealed by the supermajority.</strong> The founders can't amend these provisions alone. A normal majority can't touch them; only the stated supermajority can, and a change that weakens the terms needs the same vote as a sale.</li>
+                        <li><strong>"Sell the assets instead of the company" &mdash; sealed by the asset and IP rules.</strong> Selling <em>substantially all of the company's assets</em>, or the <strong>core IP or the brand/seal</strong> to a for-profit buyer, is covered by the same supermajority + right of first refusal as a change of control. You can't dodge the rule by selling the pieces.</li>
+                        <li><strong>"Quietly change our policy" &mdash; sealed by treating it as a protected event.</strong> A change to how we use, sell, or make <em>less auditable</em> your data is a protected event, not a routine policy update. It needs the supermajority and it triggers your exit right.</li>
+                        <li><strong>"Buy us after a quiet change" &mdash; sealed by the exit right.</strong> Even if a weakening slipped through, every user can leave and take their data with them. A buyer can't count on the user base &mdash; the thing that makes the company valuable &mdash; sticking around.</li>
+                        <li><strong>"Let the contract lapse at renewal" &mdash; sealed by continuity.</strong> The data and auditability commitments run for the life of the company; they don't reset every year. And the signed record's validity is independent of the company's survival, so it can't be quietly let go.</li>
+                    </ul>
                 </div>
             </div>
         </section>

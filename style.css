@@ -229,6 +229,16 @@ body::before {
 .reveal.visible { opacity: 1; transform: translateY(0); }
 .cards .reveal:nth-child(2n) { transition-delay: 0.1s; }
 
+/* ===== CLEAN LIST SECTIONS (Promise / Enforcement / Loopholes) ===== */
+.subhead { font-size: 22px; font-weight: 700; letter-spacing: -0.4px; margin: 0 0 16px; color: var(--text); }
+.lead-line { font-size: var(--fs-body); line-height: 1.75; color: var(--text-muted); margin: 0 0 18px; max-width: 820px; }
+.promise-list { list-style: none; padding: 0; margin: 0 0 20px; max-width: 820px; }
+.promise-list li { position: relative; padding: 0 0 0 34px; margin-bottom: 16px; font-size: var(--fs-body); line-height: 1.6; color: var(--text); }
+.promise-list li::before { content: "\2713"; position: absolute; left: 0; top: 1px; color: var(--accent, #5b8cff); font-weight: 800; font-size: 19px; }
+.promise-list li strong { color: var(--text); font-weight: 700; }
+.subblock { margin-bottom: 44px; }
+.subblock:last-child { margin-bottom: 0; }
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 900px) {
     .cards { grid-template-columns: 1fr; max-width: 520px; }
