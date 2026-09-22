@@ -53,7 +53,7 @@ body::before {
 }
 
 /* ===== LAYOUT ===== */
-.container { width: 100%; max-width: var(--maxw); margin: 0 auto; padding: 0 24px; }
+.container { width: 100%; max-width: 95%; margin: 0 auto; padding: 0 24px; }
 .container.narrow { max-width: var(--maxw-narrow); }
 
 /* ===== TOP BAR ===== */
