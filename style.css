@@ -138,7 +138,7 @@ body::before {
 }
 .card:hover { transform: translateY(-5px); border-color: var(--border-strong); box-shadow: var(--shadow-sm); }
 .card h3 {
-    font-size: 20px; font-weight: 700; letter-spacing: -0.3px;
+    font-size: 26px; font-weight: 700; letter-spacing: -0.4px;
     margin-bottom: 14px; color: var(--text);
 }
 .card .problem {
