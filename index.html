@@ -1,166 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The Equitable Standard — governance rules for a corporation where the people who create the value keep it. Charter, certification, and FAQ.">
-    <title>The Equitable Standard — Charter &amp; Certification</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>WorkSigned</title>
+<style>
+  html,body{margin:0;height:100%;background:#0b0d12;color:#e6e8ee;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    display:flex;align-items:center;justify-content:center;}
+  .card{text-align:center;padding:48px 28px;max-width:440px;}
+  .brand{font-weight:700;font-size:22px;letter-spacing:.2px;margin-bottom:16px;}
+  .brand span{color:#38d39f;}
+  h1{font-size:22px;font-weight:600;margin:0 0 10px;}
+  p{color:#9aa0ad;font-size:16px;line-height:1.55;margin:0;}
+</style>
 </head>
 <body>
-    <div id="site">
-        <!-- Top bar -->
-        <div id="topbar">
-            <div class="topbar-inner">
-                <a href="#top" id="logo"><span class="logo-mark">&#10003;</span> The Equitable Standard</a>
-                <nav class="topnav">
-                    <a href="#charter">Charter</a>
-                    <a href="#certification">Certification</a>
-                    <a href="/enforcement">Enforcement</a>
-                    <a href="#faq">FAQ</a>
-                    <a href="https://equitablecorporation.com" target="_blank">The Corporation &rarr;</a>
-                </nav>
-            </div>
-        </div>
-
-        <!-- Hero -->
-        <section class="hero" id="top">
-            <div class="container">
-                <span class="eyebrow">A standard for a different kind of company</span>
-                <h1>The <span class="grad">Equitable</span> Standard</h1>
-                <p class="sub">
-                    Much of today's tech is built on extraction &mdash; your data, attention, and effort
-                    used to generate value that flows away from you. The <strong>Equitable Standard</strong>
-                    defines a different kind of corporation: your data is never sold, and a
-                    charter-level bar on sale or change of control to a private equity firm,
-                    a venture capital fund, or any acquirer that would control the board &mdash;
-                    sealed by a supermajority and a per-signee remedy, so a capture is
-                    <em>priced and public</em>, not possible to do quietly. The rules can only be
-                    strengthened, never weakened.
-                </p>
-            </div>
-        </section>
-
-        <!-- THE PROMISE / ENFORCEMENT / LOOPOLES -->
-        <section class="section" id="charter">
-            <div class="container">
-                <h2 class="section-title">What the Equitable Standard is</h2>
-                <p class="section-lead">A company that keeps its promises. Three short sections: what it promises, how that promise is enforced, and how the gaps are closed.</p>
-
-                <!-- 1. THE PROMISE -->
-                <div class="subblock">
-                    <h3 class="subhead">What is the promise</h3>
-                    <ul class="promise-list">
-                        <li><strong>Your data stays yours.</strong> We don't sell, mine, or use your data or your work to train anything. It's only ever used to give you the service you asked for.</li>
-                        <li><strong>We can't be bought up.</strong> The company can't be sold to a private equity firm, a venture capital fund, or a buyer who would take control of the board. Whoever runs it has to follow the same rules.</li>
-                        <li><strong>We can't change the rules to weaken you.</strong> The data, privacy, and audit rules can only get stronger, never weaker. Making them weaker is treated the same as selling the company to a buyer &mdash; it needs the same supermajority vote.</li>
-                        <li><strong>You can check us.</strong> Your IT security team can audit the deployed code, and our finances and cap table are public. Trust comes from checking, not from us saying so.</li>
-                        <li><strong>If we ever break this:</strong> if we were sold to one of those buyers, or if we tried to weaken your data or auditability terms, you could <em>end your account and get your data back</em>. And what you've signed still holds &mdash; its validity doesn't depend on who we are.</li>
-                    </ul>
-                </div>
-
-                <!-- 2. ENFORCEMENT -->
-                <div class="subblock">
-                    <h3 class="subhead">What are the enforcement mechanisms</h3>
-                    <ul class="promise-list">
-                        <li><strong>The charter.</strong> The company's own governing document requires a <strong>supermajority</strong> (not a normal majority) for a sale or change of control, a sale of the core IP, or a sale of the brand &mdash; and gives users and the public a <strong>right of first refusal</strong>, so they can always buy it before anyone else.</li>
-                        <li><strong>Your right to exit.</strong> If any of the protected events happens, the service agreement with <em>every user</em> is breached. Each user can then <strong>cancel, get their data back, and keep their signed work valid</strong>. We don't claim a sale is impossible &mdash; we make it <em>costly and public</em>, because a buyer who would face claims from every user at once is a buyer who won't show up.</li>
-                        <li><strong>The signed record.</strong> (For signing products like WorkSigned.) Every record is a chain of hashes signed against a public chain &mdash; or, in the institution-hosted model, against <em>your own key</em>. A sale or even the company going out of business <strong>cannot change, reprice, or reuse</strong> anything already signed. That part is math, not law.</li>
-                    </ul>
-                </div>
-
-                <!-- 3. LOOPOLES -->
-                <div class="subblock">
-                    <h3 class="subhead">How are loopholes sealed</h3>
-                    <ul class="promise-list">
-                        <li><strong>"Just change the charter" &mdash; sealed by the supermajority.</strong> The founders can't amend these provisions alone. A normal majority can't touch them; only the stated supermajority can, and a change that weakens the terms needs the same vote as a sale.</li>
-                        <li><strong>"Sell the assets instead of the company" &mdash; sealed by the asset and IP rules.</strong> Selling <em>substantially all of the company's assets</em>, or the <strong>core IP or the brand/seal</strong> to a for-profit buyer, is covered by the same supermajority + right of first refusal as a change of control. You can't dodge the rule by selling the pieces.</li>
-                        <li><strong>"Quietly change our policy" &mdash; sealed by treating it as a protected event.</strong> A change to how we use, sell, or make <em>less auditable</em> your data is a protected event, not a routine policy update. It needs the supermajority and it triggers your exit right.</li>
-                        <li><strong>"Buy us after a quiet change" &mdash; sealed by the exit right.</strong> Even if a weakening slipped through, every user can leave and take their data with them. A buyer can't count on the user base &mdash; the thing that makes the company valuable &mdash; sticking around.</li>
-                        <li><strong>"Let the contract lapse at renewal" &mdash; sealed by continuity.</strong> The data and auditability commitments run for the life of the company; they don't reset every year. And the signed record's validity is independent of the company's survival, so it can't be quietly let go.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <!-- CERTIFICATION -->
-        <section class="section section-alt" id="certification">
-            <div class="container narrow">
-                <h2 class="section-title">Certification</h2>
-                <p class="section-lead">The Equitable Standard isn't exclusive to any one company. Any corporation can commit to it and be certified.</p>
-
-                <div class="cert-grid">
-                    <div class="cert-item">
-                        <h3>Who can apply</h3>
-                        <p>Any incorporated entity &mdash; startups, existing corporations, and cooperatives. The only requirement is a genuine commitment to the standard's principles: no data sharing, no sale to a private equity firm, a venture capital fund, or any acquirer that would control the board, locked core rules, transparency, and independence.</p>
-                    </div>
-                    <div class="cert-item">
-                        <h3>What it means</h3>
-                        <p>Certified companies receive a publicly verifiable seal and are listed in a public registry. The seal signals to users, investors, and partners that value flows to creators, not extractors. Compliance is reviewed periodically, and the core terms <strong>can only be strengthened, never weakened</strong> &mdash; a material adverse change requires the stated supermajority and triggers the per-signee remedy, so the commitment cannot be quietly walked back.</p>
-                    </div>
-                    <div class="cert-item">
-                        <h3>How to apply</h3>
-                        <p>Three steps: submit your basic information and a statement of commitment, undergo a compliance review by the Equitable Standard board, and if approved, receive the seal and a registry listing. The review takes about 30 days, and applying is free.</p>
-                    </div>
-                </div>
-
-                <div class="cert-cta">
-                    <a href="https://equitablecorporation.com" target="_blank" class="btn btn-ghost">
-                        About the Equitable Corporation &rarr;
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <!-- FAQ -->
-        <section class="section" id="faq">
-            <div class="container narrow">
-                <h2 class="section-title">Frequently Asked Questions</h2>
-                <div class="faq-list">
-                    <details class="faq-item reveal">
-                        <summary>What is the Equitable Standard?</summary>
-                        <p>A set of governance rules that define what an equitable corporation is. Any company can apply to meet the standard and earn certification. The rules cover no data sharing, no sale to a private equity firm, a venture capital fund, or any acquirer that would control the board, locked core rules, transparency, and independence.</p>
-                    </details>
-                    <details class="faq-item reveal">
-                        <summary>Can the company be sold to an investor or acquirer?</summary>
-                        <p>Not quietly &mdash; the charter requires a supermajority and a right of first refusal for any sale or change of control to a private equity firm, a venture capital fund, or any acquirer that would control the board, so a capture is <em>priced and public</em>, not possible to do quietly.</p>
-                    </details>
-                    <details class="faq-item reveal">
-                        <summary>Why not just a social-purpose corporation or a non-profit?</summary>
-                        <p>SPCs are generic and vague &mdash; the label tells users nothing concrete. Non-profits cap the founder's earning potential and can't compete the way a for-profit can. The Equitable Standard is different: it locks in no data sharing, requires a supermajority and right of first refusal for any sale to a private equity firm, a venture capital fund, or any acquirer that would control the board, and makes the commitments verifiable &mdash; a legal commitment with real teeth, not a marketing label, where the terms can only be strengthened.</p>
-                    </details>
-                    <details class="faq-item reveal">
-                        <summary>Should we make our whole company transparent? No trade secrets?</summary>
-                        <p>No. The Standard doesn't require you to abandon business secrets &mdash; you need them to be profitable. The transparency it demands is about governance, finances, and data practices, not your product or strategy. Protect your IP; be open about how you run the company.</p>
-                    </details>
-                    <details class="faq-item reveal">
-                        <summary>What backs the commitments &mdash; is it enforceable?</summary>
-                        <p>Everything is enforced by the same two layers: the <strong>charter-level bar</strong> (supermajority + ROFR on a capture, an IP/brand sale, or any material weakening of the terms), and the <strong>per-signee remedy</strong> that a capture or an adverse change breaches. So no future board, owner, or SLA can quietly weaken the structural commitments &mdash; no sale to PE/VC, the data rules, the locked provisions. One path to enforcement, and it only ever gets stronger. (Where the product is a signing record, e.g. WorkSigned, a third, cryptographic layer applies.)</p>
-                    </details>
-                    <details class="faq-item reveal">
-                        <summary>How much does certification cost?</summary>
-                        <p>Applying is free. Certification is 1% of distributable profits annually, capped (and adjusted for inflation), with no setup or hidden fees. You only pay when profitable &mdash; bad years can't cripple the business. The core terms <strong>can only be strengthened, never weakened</strong>: a material adverse change requires the stated supermajority and triggers the per-signee remedy, so the commitment cannot be quietly walked back.</p>
-                    </details>
-                    <details class="faq-item reveal">
-                        <summary>Is there anything wrong with private equity or venture capital?</summary>
-                        <p>Nothing is inherently wrong &mdash; they're valid, time-tested instruments. But under the Standard, they cannot buy the company or gain control. The charter requires a supermajority and a right of first refusal for any sale to a private equity firm, a venture capital fund, or any acquirer that would control the board, so founders and users don't have to give up the company, its data, or its vision to raise capital.</p>
-                    </details>
-                </div>
-            </div>
-        </section>
-
-        <!-- Footer -->
-        <footer id="footer">
-            <div class="container footer-inner">
-                <span id="foot-brand"><span class="logo-mark">&#10003;</span> The Equitable Standard</span>
-                <span class="foot-copy">&copy; 2026 &middot; <a href="https://equitablecorporation.com" target="_blank">equitablecorporation.com</a> &middot; <a href="https://worksigned.com" target="_blank">worksigned.com</a></span>
-            </div>
-        </footer>
-    </div>
-
-    <script src="script.js"></script>
+  <div class="card">
+    <div class="brand">Work<span>Signed</span></div>
+    <h1>Coming soon</h1>
+    <p>Provable research, in preparation.</p>
+  </div>
 </body>
 </html>
+
